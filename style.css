@@ -1,0 +1,180 @@
+*, hmtl {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('assets/images/Landing\ Page\ Coming\ Soon\ Afila\ Mart.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header button {
+    margin-top: 69px;
+    background-color: #2F5ED9;
+    width: 266px;
+    height: 61px;
+    border: none;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'Regular Brush', sans-serif;
+}
+
+.header .title {
+    margin-top: 24px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 72px;
+    font-family: 'Baloo Bhaijaan',sans-serif;
+}
+
+.main .card {
+    margin-top: 68px;
+    width: 580px;
+    height: 412px;
+    border: none;
+    border-radius: 20px;
+}
+
+.colors {
+    gap: 5.82px;
+}
+
+.main .card .colors #id1 {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #E11D48;
+    border-radius: 50%;
+}
+.main .card .colors #id2 {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #FBBF24;
+    border-radius: 50%;
+}
+
+.main .card .colors #id3 {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #22C55E;
+    border-radius: 50%;
+}
+
+.main .card .box {
+    width: 274px;
+    height: 25px;
+    background-color: #F1F5F9;
+}
+
+.main .card .box .title {
+    color: #94A3B8;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.main .card .aero #id1, #id2 {
+    cursor: pointer;
+}
+
+.main .sub-title {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.footers {
+    background-color: #2F5ED9;
+    height: 104px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+.footers .copyright {
+    margin-top: 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.footers .copyright span {
+    
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footers ul {
+    margin-top: 40px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header button {
+        margin-top: 40px;        
+        width: 230px;
+        height: 54px;                
+        color: #FFF;
+        font-size: 22px;        
+    }
+
+    .header .title {
+        margin-top: 15px;
+        color: #FFF;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 62px;
+        font-family: 'Baloo Bhaijaan',sans-serif;
+    }
+
+    .main .card {
+        margin-top: 28px;
+        width: 580px;
+        height: 412px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .main .sub-title {        
+        font-size: 18px;        
+        font-weight: 400;
+        margin-top: 13px;
+    }
+
+    .footers .copyright {
+        margin-top: 40px;
+        color: #FFF;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+        
+    .footers .copyright span {        
+        font-size: 10px;        
+    }
+
+    .footers ul {
+        gap: 5px;
+    }
+
+    .footers ul li img{
+        width: 18px;
+        
+    }
+}
